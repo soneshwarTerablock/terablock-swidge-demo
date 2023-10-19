@@ -21,6 +21,8 @@ function App() {
   // can give background url to change background
   const background = "https://media.tenor.com/o23PLsTxPLoAAAAd/wallpaper.gif";
 
+  //can pass the provider as well in the same way as all parameters but if not provided it already have a default provider also works smooth and fine.
+
   return (
     <div className="App">
       <TB_SDK.TBSwidget color="teal" style={style} bgStyles={bgStyles} fromTokens={fromTokens} toTokens={toTokens} fromChains={fromChains} toChains={toChains} background={background}/>
